@@ -51,7 +51,7 @@ around this by using:
 
     $ export ARCHFLAGS="-Wno-error=unused-command-line-argument-hard-error-in-future"
 
-Then
+when installing couchapp w/ pip. Then
 
     $ cd couchapp
     $ couchapp push . http://<USERNAME>:<PASSWORD>@<USERNAME>.cloudant.com/mail
